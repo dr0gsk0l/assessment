@@ -17,7 +17,6 @@ startbutton.onclick=()=>{
 
     while(resultarea.firstChild)
         resultarea.removeChild(resultarea.firstChild);
-    
     const kekka=document.createElement('h3');
     kekka.innerText='結果';
     resultarea.appendChild(kekka);
@@ -31,12 +30,12 @@ startbutton.onclick=()=>{
 
     const anchor=document.createElement('a');
     const hrefvalue="https://twitter.com/intent/tweet?button_hashtag="
-                    +encodeURIComponent('KUPCたのしみ〜')+
+                    +encodeURIComponent('drogskolすげ－')+
                     "&ref_src=twsrc%5Etfw";
     anchor.setAttribute('href',hrefvalue);
     anchor.className='twitter-hashtag-button';
     anchor.setAttribute('data-text',result);
-    anchor.innerText='呟こう';
+    anchor.innerText='呟こうね';
     tweetarea.appendChild(anchor);
 
     const script=document.createElement('script');

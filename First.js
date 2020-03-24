@@ -29,9 +29,9 @@ startbutton.onclick=()=>{
         tweetarea.removeChild(tweetarea.firstChild);
 
     const anchor=document.createElement('a');
-    const hrefvalue="https://twitter.com/intent/tweet?button_hashtag="
+    const hrefvalue='https://twitter.com/intent/tweet?button_hashtag='
                     +encodeURIComponent('drogskolすげ－')+
-                    "&ref_src=twsrc%5Etfw";
+                    '&ref_src=twsrc%5Etfw';
     anchor.setAttribute('href',hrefvalue);
     anchor.className='twitter-hashtag-button';
     anchor.setAttribute('data-text',result);

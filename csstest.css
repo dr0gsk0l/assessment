@@ -1,7 +1,7 @@
 
 body{
   background-color: turquoise;
-  color: black;
+  color: white;
   width: 300px;
   margin-left: auto;
   margin-right: auto;
@@ -9,7 +9,7 @@ body{
 
 button{
   padding: 10px 20px;
-  background-color: black;
+  background-color: white;
   border-style: dotted;
 }
 
